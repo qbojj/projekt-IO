@@ -17,7 +17,7 @@
 
 # tabele
 
-- użytkownicy
-- produkty
-- zamówienia
-- kody rabatowe
+- użytkownicy: id, nick, password, 2fa
+- produkty: id, cena, ilość, id-sprzedawcy
+- zamówienia: id, id-kupujący, produkty, suma zapłacona
+- kody rabatowe: id, id-sprzedawcy, przecena, produkty
