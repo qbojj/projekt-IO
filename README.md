@@ -21,3 +21,7 @@
 - produkty: id, cena, ilość, id-sprzedawcy
 - zamówienia: id, id-kupujący, produkty, suma zapłacona
 - kody rabatowe: id, id-sprzedawcy, przecena, produkty
+
+
+# Oddanie 1
+  Implementacja tylko podanych funkcji - sklep jest rozległy, więc ograniczyć się z złożonością projektu
