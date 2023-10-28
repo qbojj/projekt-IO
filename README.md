@@ -1,4 +1,4 @@
-# projekt-IO
+# Projekt-IO
 
 # System zarządzania sprzedażą i zamówieniami online dla sklepu internetowego:
 
@@ -15,7 +15,7 @@
 - Zarządzanie klientami: Rejestracja klientów, zarządzanie danymi kontaktowymi, historia zamówień.
   - ???
 
-# tabele
+# Tabele
 
 - użytkownicy: id, nick, password, 2fa
 - produkty: id, cena, ilość, id-sprzedawcy
@@ -23,5 +23,5 @@
 - kody rabatowe: id, id-sprzedawcy, przecena, produkty
 
 
-# Oddanie 1
+# Zadanie 1
   Implementacja tylko podanych funkcji - sklep jest rozległy, więc ograniczyć się z złożonością projektu
