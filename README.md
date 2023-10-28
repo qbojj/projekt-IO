@@ -23,5 +23,5 @@
 - kody rabatowe: id, id-sprzedawcy, przecena, produkty
 
 
-# Zadanie 1
+# Oddanie 1
   Implementacja tylko podanych funkcji - sklep jest rozległy, więc ograniczyć się z złożonością projektu
