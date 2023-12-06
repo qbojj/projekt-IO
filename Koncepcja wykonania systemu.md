@@ -83,34 +83,68 @@ Poniżej przedstawiony jest schematyczny diagram bazy danych, ukazujący struktu
 
 ![BazaDanychOpaque](BazaDanychOpaque.png)
 
-**5. Czynności i Zadania Uzupełniające:**
+## Główne zasady kodowania
 
-a. **Omówienie Interfejsów z Innymi Systemami:**
-   - Integracja z systemami płatności online, np. PayPal, Stripe.
-   - Współpraca z firmami kurierskimi do śledzenia dostaw.
-   - Integracja z systemami CRM (Customer Relationship Management) dla efektywnego zarządzania relacjami z klientami.
+Zgodnie z zastosowanymi praktykami programowania w naszym projekcie sklepu internetowego, przyjęliśmy pewne kluczowe zasady kodowania, które mają na celu zwiększenie czytelności, utrzymanie spójności oraz ułatwienie potencjalnego rozwoju zespołu programistycznego. Poniżej przedstawiamy główne zasady dotyczące kodowania w naszym projekcie:
 
-b. **Sporządzenie Modelu Konceptualnego Rzeczywistości:**
-   - Identyfikacja głównych aktorów: administrator, klient, system płatności, system dostaw.
-   - Określenie podstawowych encji, takich jak Produkt, Zamówienie, Klient, Promocja.
-   - Ustalenie relacji między encjami, np. Klient składa Zamówienie, Produkt może być przypisany do Promocji.
+1. **Język Programowania:**
+   - Kod oraz wszystkie komentarze powinny być pisane w języku angielskim, co obejmuje zarówno same fragmenty kodu, jak i wszelkie komunikaty czy dokumentację.
+   - Aplikacja sklepu internetowego będzie napisana w języku JavaScript, co gwarantuje uniwersalność oraz ułatwia potencjalne rozszerzenie zespołu programistycznego.
 
-c. **Sporządzenie Schematu Bazy Danych:**
-   - Tworzenie tabel dla każdej głównej encji, definiowanie kluczy głównych i obcych.
-   - Określenie typów danych, indeksów, ograniczeń integralności danych.
-   - Ustalanie relacji między tabelami, np. klucz obcy Klienta w tabeli Zamówień.
+2. **Standardy Kodowania w Języku JavaScript:**
+   - Nazwy klas i metod powinny być zapisywane w konwencji Pascal Case (np. `class ProductService`, `function processOrder()`).
+   - Nazwy argumentów i zmiennych lokalnych powinny być zapisywane w konwencji Camel Case (np. `const orderDate`, `let itemCount`).
+   - Preferowane jest użycie zmiennych predefiniowanych danego języka, a nie ich równoważników systemowych (np. `let` zamiast `var`).
+   - Nazwy interfejsów powinny zaczynać się od litery 'I' (np. `IProductService`).
 
-**6. Przedstawienie Głównych Zasad Kodowania:**
-   - Ustalenie jednolitych konwencji nazewniczych.
-   - Zastosowanie sprawdzania poprawności kodu za pomocą narzędzi, np. linters.
-   - Regularne przeglądy kodu oraz udokumentowanie istotnych fragmentów.
+3. **Zastosowanie Wzorca MVVM w Xamarin:**
+   - Xamarin wykorzystuje wzorzec Model-View-ViewModel (MVVM) do separacji logiki prezentacji od biznesowej i interfejsu użytkownika.
+   - Należy dbać o jednostronne przypisywanie stron (np. test, nauka) do jednego widoku modelu, aby utrzymać czytelność i modularność kodu.
+   - Kod w plikach `.jsx` powinien zawierać jedynie inicjalizację konstruktora, tworzenie modelu widoku, przypisanie kontekstu danych do modelu widoku oraz wywołanie metody `initialize`.
 
-**7. Zidentyfikowanie Zagrożeń i Opracowanie Zasad Zarządzania Ryzykiem:**
-   - Zagrożenia bezpieczeństwa, takie jak ataki typu SQL injection, cross-site scripting.
-   - Ryzyko związane z integralnością danych i utratą informacji.
-   - Planowanie regularnych audytów bezpieczeństwa, stosowanie zabezpieczeń na różnych warstwach aplikacji.
+4. **Zarządzanie Kodem Źródłowym w Repozytorium Git:**
+   - Cały projekt będzie przechowywany w prywatnym repozytorium na platformie GitHub, dostępnym dla programistów, testerów i zarządu.
+   - Wszelkie zmiany w kodzie powinny być wprowadzane poprzez osobne branch'e, a po zakończeniu prac merge'owane z gałęzią `master`.
+   - Każdy commit powinien dotyczyć jak najmniejszej ilości plików, co przyspieszy proces rewizji kodu oraz ułatwi śledzenie i wprowadzanie zmian.
+   - Nazwy commitów powinny być pisane w języku angielskim, w czasie teraźniejszym, zawierając zwięzły opis wprowadzanych zmian (np. "Introduce product search functionality")."
 
-**8. Ocena Zgodności Wykonanych Prac z Wizją i Założeniami:**
-   - Analiza, czy implementacja spełnia założenia przedstawione w tablicy koncepcyjnej.
-   - Porównanie wyników z założeniami specyfikacji wymagań.
-   - Weryfikacja, czy system jest zgodny z ogólną wizją biznesową i oczekiwaniami klienta.
+5. Identyfikacja i Zasady Zarządzania Ryzykiem
+
+W procesie identyfikacji ryzyka dla naszego projektu sklepu internetowego wyodrębniliśmy potencjalne zagrożenia, które mogą wpłynąć na pomyślne jego wdrożenie. Poniżej przedstawiamy wybrane ryzyka oraz zasady zarządzania nimi:
+
+## Identyfikacja i zasady zarządania ryzykiem
+
+1. **Przeciążenie Serwerów:**
+   - *Opis Ryzyka:* Istnieje możliwość przeciążenia serwerów w wyniku nagłego wzrostu liczby użytkowników, szczególnie po rozpoczęciu akcji reklamowej.
+   - *Prawdopodobieństwo:* Niskie (na początku istnienia aplikacji), średnie/wysokie (po akcji reklamowej).
+   - *Zapobieganie:* Monitorowanie aktywności użytkowników, skalowalność serwerów w zależności od potrzeb, planowanie awaryjnych procedur.
+
+2. **Niedotrzymanie Terminu Ukończenia:**
+   - *Opis Ryzyka:* Ryzyko nieterminowego ukończenia projektu wynikające z nieefektywnego monitorowania postępów lub błędnej alokacji czasu na poszczególne etapy.
+   - *Prawdopodobieństwo:* Średnie/wysokie.
+   - *Zapobieganie:* Regularne monitorowanie postępów, elastyczne planowanie czasu, wczesne wykrywanie opóźnień i dostosowywanie harmonogramu.
+
+### zasady zarządzania ryzykiem
+
+1. **Monitorowanie Aktywności Użytkowników:**
+   - Stworzymy mechanizmy monitorujące aktywność użytkowników w czasie rzeczywistym, aby szybko zidentyfikować potencjalne wzrosty ruchu na serwerach.
+
+2. **Skalowalność Serwerów:**
+   - Zastosujemy elastyczne rozwiązania infrastrukturalne, umożliwiające dynamiczne dostosowywanie zasobów serwerowych do zmieniających się potrzeb.
+
+3. **Planowanie Awaryjnych Procedur:**
+   - Przygotujemy plan awaryjny w razie przeciążenia serwerów, obejmujący szybkie skalowanie zasobów oraz ewentualne przenoszenie ruchu na zapasowe serwery.
+
+4. **Regularne Monitorowanie Postępów:**
+   - Ustanowimy system regularnego monitorowania postępów, wykorzystując narzędzia do śledzenia zadaniowego postępu w czasie rzeczywistym.
+
+5. **Elastyczne Planowanie Czasu:**
+   - Przyjęcie podejścia do elastycznego planowania, umożliwiającego dostosowywanie harmonogramu w zależności od aktualnych potrzeb i priorytetów.
+
+6. **Wczesne Wykrywanie Opóźnień:**
+   - Implementacja mechanizmów wczesnego wykrywania opóźnień, umożliwiających szybką reakcję i podjęcie niezbędnych działań naprawczych.
+
+Wprowadzenie powyższych zasad pozwoli nam skutecznie zarządzać ryzykami, minimalizując negatywne skutki oraz zapewniając terminowe i efektywne ukończenie projektu.
+
+## Ocena zgodności
+Prace sklepu internetowego są zgodne z pierwotnymi planami i specyfikacją. Nie przewidujemy konieczności większych zmian. Działania zespołu pozwoliły na efektywne osiągnięcie celów bez większych odchyleń. 
