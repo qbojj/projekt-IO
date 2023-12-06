@@ -1,3 +1,11 @@
+---
+title: Koncepcja wykonania systemu
+author: J.Janczko, M.Wisniewski
+geometry: "left=3cm,right=3cm,top=2cm,bottom=2cm"
+fontsize: 14pt
+date: \today
+---
+
 **1. Zarządzanie Produktami:**
 
 a. **Dodawanie Nowego Produktu:**
