@@ -65,11 +65,12 @@ b. **Korzystanie z Kodów Rabatowych:**
    2. Podczas składania zamówienia, wpisuje kod rabatowy w odpowiednim polu.
    3. System oblicza zniżkę, a klient widzi nową sumę do zapłaty.
 
+## Projekty ektranów:
 
+![Menager faktur](1.png)
+![Panel administratora](2.png)
 
--------------------------------------------
-
-**4. Zaprojektowanie Architektury Systemu:**
+## Architektura systemu:
 
 Aplikacja sklepu internetowego zostanie zaimplementowana w języku programowania Java, korzystając z frameworka Spring oraz narzędzi programistycznych, takich jak IntelliJ IDEA. Frontend sklepu będzie oparty na technologii Angular, umożliwiającej tworzenie responsywnego interfejsu użytkownika dostępnego na różnych urządzeniach. Komunikacja między frontendem a backendem będzie realizowana poprzez zdefiniowane interfejsy API RESTful.
 
