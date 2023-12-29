@@ -89,6 +89,47 @@ cheat sheet: https://github.com/whiskeyo/Kursy-UWr/blob/master/In%C5%BCynieria%2
 
 # Zadanie 2:
 
+### 1. Wydajność:
+
+**Miarą:** Średni czas odpowiedzi (Average Response Time)
+
+**Obliczanie:** 
+```math
+Average\ Response\ Time = \sum_{i=1}^{n} \frac{Response\ Time_i}{n}
+```
+
+gdzie $`Response\ Time_i`$ to czas odpowiedzi dla i-tej transakcji, a $`n`$ to liczba tranzakcji.
+
+Przeprowadzane jest 1000 tranzakcji jednocześnie.
+
+**Porządana wartość:** $`Average\ Response\ Time <= 2s`$.
+
+### 2. Bezpieczeństwo:
+
+**Miarą:** Liczba luk w zabezpieczeniach (Number of Security Vulnerabilities)
+
+**Obliczanie:** 
+```math
+Number\ of\ Security\ Vulnerabilities = \sum_{i=1}^{n} Vulnerability_i
+```
+gdzie $`Vulnerability_i`$ to liczba luk w zabezpieczeniach zidentyfikowanych w wyniku testów penetracyjnych.
+
+Testy penetracyjne będą wykonywane równolegle z produkcją oprogramowania.
+
+**Porządana wartość:** $`Number\ of\ Security\ Vulnerabilities = 0`$
+
+### 3. Dostępność:
+
+**Miarą:** Procent dostępności (Availability Percentage)
+
+**Obliczanie:** 
+```math
+Availability\ Percentage = \left( \frac{Czas\ dostępności}{Całkowity\ czas} \right) \times 100\%
+```
+
+gdzie $`Czas\ dostępności`$ to czas, w którym system był dostępny, a $`Całkowity\ czas`$ to ogólny czas pomiaru.
+
+**Porządana wartość:** $`Availability\ Percentage >= 99\%`$ w miesiącu.
 
 # Zadanie 3: Plan Beta testowania
 
