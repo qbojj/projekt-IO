@@ -230,3 +230,7 @@ gdzie $`Czas\ dostępności`$ to czas, w którym system był dostępny, a $`Cał
 Dotychczasowe postępy w realizacji projektu są zadowalające. Obserwujemy istotne osiągnięcia zgodne z naszą pierwotną wizją systemu zarządzania sklepem. Niemniej jednak, po dokładniejszej analizie, zauważamy potrzebę rozszerzenia zespołu o drugiego testera. Taki krok pozwoli nam skuteczniej i dogłębniej testować aplikację, zwłaszcza w kontekście weryfikacji i eliminacji błędów powstałych w trakcie implementacji poszczególnych funkcjonalności.
 
 Dodatkowe zatrudnienie będzie miało pozytywny wpływ na jakość aplikacji, umożliwiając wykrywanie i naprawę potencjalnych problemów. Jednakże, ze względu na potrzebę lepszej kontroli jakości oraz zapewnienie optymalnego działania, istnieje możliwość niewielkiego wydłużenia terminu dostarczenia o około dwa tygodnie. To pozwoli nam na dogłębne testowanie i eliminowanie ewentualnych niedociągnięć, co przyczyni się do lepszego odbioru aplikacji przez użytkowników.
+
+Zmienił się także przedidywany czas wykonania projektu z 7 miesięcy na 8 miesięcy.
+
+Oznacza to że koszt także wzrósł z 600 000 PLN na 750 000 PLN
