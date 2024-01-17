@@ -101,7 +101,7 @@ Wynika z tego, że sumaryczna wielkość wszystkich tablic po pierwszym roku wyn
 
 Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji i danych występujących w sklepie internetowym ShopMaster. Wartości podane są w przybliżeniu, a rzeczywisty rozmiar bazy danych będzie zależał od konkretnych danych oraz rozwoju sklepu.
 
-# Plan Wdrożenia Projektu ShopMaster
+## Plan Wdrożenia Projektu ShopMaster
 
 | Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
 | --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
@@ -119,7 +119,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 | 12  | Testy integracyjne i ostateczne poprawki           | 3 tygodnie  | 20-11-2024  | 11-12-2024  |
 | 13  | Uruchomienie systemu na serwerze produkcyjnym     | 2 tygodnie   | 11-12-2024  | 25-12-2024  |
 
-## Plan Migracji Danych
+### Plan Migracji Danych
 
 | Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
 | --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
@@ -128,7 +128,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 | 3   | Import danych do nowego systemu                   | 2 tygodnie  | 21-12-2024 | 03-01-2025 |
 | 4   | Weryfikacja i poprawki w danych migracyjnych       | 1 tydzień   | 03-01-2025 | 10-01-2025 |
 
-## Plan Wdrożenia Projektu (Infrastruktura)
+### Plan Wdrożenia Projektu (Infrastruktura)
 
 | Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
 | --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
@@ -140,13 +140,9 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 | 6   | Migracja danych na serwer produkcyjny              | 1 tydzień   | 04-03-2025 | 11-03-2025 |
 | 7   | Otwarcie produkcyjne systemu                      | 1 tydzień   | 11-03-2025 | 18-03-2025 |
 
+## Szkolenia
 
-
-
-
-# Szkolenia
-
-## Cele Szkoleń:
+### Cele Szkoleń:
 1. **Zapoznanie z Interfejsem:**
    - Zrozumienie struktury systemu.
    - Nabycie umiejętności nawigacji po panelu administracyjnym.
@@ -168,9 +164,9 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
    - Zmiana hasła i ustawienia konta.
    - Włączanie i konfiguracja dwuskładnikowej autentykacji.
 
-## Plan Organizacji Szkoleń:
+### Plan Organizacji Szkoleń:
 
-### Faza Przygotowawcza:
+#### Faza Przygotowawcza:
 
 1. **Analiza Grupy Docelowej:**
    - Określenie poziomu doświadczenia użytkowników.
@@ -183,7 +179,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 3. **Ustalenie Terminów Szkoleń:**
    - Zaplanowanie sesji szkoleniowych w zależności od dostępności użytkowników.
 
-### Faza Szkoleniowa:
+#### Faza Szkoleniowa:
 
 4. **Sesje Szkoleniowe:**
    - Przeprowadzenie sesji online lub offline w zależności od preferencji użytkowników.
@@ -197,7 +193,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
    - Zebranie opinii uczestników na temat szkoleń.
    - Wprowadzenie ewentualnych poprawek do procesu szkoleniowego.
 
-### Faza Monitoringu i Wsparcia:
+#### Faza Monitoringu i Wsparcia:
 
 7. **Wsparcie Poszkoleniowe:**
    - Udostępnienie materiałów szkoleniowych w formie podręcznika.
@@ -212,7 +208,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 
 
 
-# Koncepcja wsparcia technicznego w tym usuwania błędów i zapewnienia ciągłości działania 
+## Koncepcja wsparcia technicznego w tym usuwania błędów i zapewnienia ciągłości działania 
 
 
 ### 1. **Wsparcie Techniczne:**
@@ -232,7 +228,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
    - **Priorytetyzacja i Monitorowanie:** Opracowanie procesu priorytetyzacji zgłoszeń, aby błędy krytyczne były natychmiastowo rozpatrywane, a użytkownicy otrzymywali informacje o postępie prac.
    - **Cykliczne Aktualizacje:** Regularne publikowanie aktualizacji systemu, które zawierają poprawki błędów zgłoszonych przez użytkowników.
 
-# Główne punkty umów
+## Główne punkty umów
 
 1. **Rejestracja i Konto Użytkownika:**
    - Proces rejestracji i zakładania konta.
