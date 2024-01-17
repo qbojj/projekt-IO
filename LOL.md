@@ -231,3 +231,38 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
    - **System Zgłaszania Błędów:** Stworzenie dedykowanego systemu zgłaszania błędów, w którym użytkownicy mogą precyzyjnie opisywać napotkane problemy.
    - **Priorytetyzacja i Monitorowanie:** Opracowanie procesu priorytetyzacji zgłoszeń, aby błędy krytyczne były natychmiastowo rozpatrywane, a użytkownicy otrzymywali informacje o postępie prac.
    - **Cykliczne Aktualizacje:** Regularne publikowanie aktualizacji systemu, które zawierają poprawki błędów zgłoszonych przez użytkowników.
+
+# Główne punkty umów
+
+1. **Rejestracja i Konto Użytkownika:**
+   - Proces rejestracji i zakładania konta.
+   - Warunki korzystania z konta użytkownika.
+   - Bezpieczeństwo hasła i danych konta.
+
+2. **Płatności i Opłaty:**
+   - Opłaty związane z korzystaniem z platformy.
+   - Proces płatności.
+   - Polityka zwrotów i zwrotów opłat.
+
+3. **Ogólne Zasady Korzystania:**
+   - Zabraniane działania i naruszenia regulaminu.
+   - Odpowiedzialność za treści umieszczane na platformie.
+   - Ograniczenia korzystania z usług.
+
+4. **Ochrona Danych i Prywatność:**
+   - Polityka prywatności.
+   - Gromadzenie, przechowywanie i przetwarzanie danych osobowych.
+   - Bezpieczeństwo danych.
+
+5. **Zobowiązania i Odpowiedzialność Strony Platformy:**
+   - Obowiązki platformy wobec użytkowników.
+   - Odpowiedzialność za działanie platformy.
+   - Gwarancje i ograniczenia odpowiedzialności.
+
+6. **Warunki Rozwiązania Umowy:**
+   - Warunki zakończenia korzystania z usług.
+   - Postanowienia dotyczące rozwiązania umowy.
+
+7. **Postanowienia Końcowe:**
+   - Informacje kontaktowe.
+   - Postanowienia ogólne.
