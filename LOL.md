@@ -262,3 +262,9 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 7. **Postanowienia Końcowe:**
    - Informacje kontaktowe.
    - Postanowienia ogólne.
+
+## Sposób pomiaru satysfakcji klienta
+
+W fazie beta, aplikacja ShopMaster zostanie udostępniona grupie beta testerów, którzy po przetestowaniu funkcji ShopMaster będą zaproszeni do wypełnienia ankiety oceniającej. Ankieta będzie skupiona na kluczowych funkcjonalnościach aplikacji, umożliwiając beta testerom wyrażenie swojego zadowolenia oraz ewentualne uwagi. Dodatkowo, przewidziane jest pole do wyrażenia opinii własnymi słowami, dając użytkownikom możliwość przekazania dodatkowych informacji.
+
+Po oficjalnym wydaniu aplikacji, ankieta satysfakcji klienta będzie dostępna dla wszystkich użytkowników, niezależnie od tego, czy są to pierwotni beta testerzy czy nowi użytkownicy. Dostęp do ankiety będzie udostępniony wszystkim, którzy skorzystają z głównych funkcji oferowanych przez naszą aplikację. To pozwoli nam na zbieranie wszechstronnych opinii i ocen dotyczących doświadczeń użytkowników, co z kolei pomoże nam w doskonaleniu funkcji i zapewnianiu wysokiej jakości usług naszym klientom.
