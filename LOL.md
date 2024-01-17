@@ -101,7 +101,7 @@ Wynika z tego, że sumaryczna wielkość wszystkich tablic po pierwszym roku wyn
 
 Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji i danych występujących w sklepie internetowym ShopMaster. Wartości podane są w przybliżeniu, a rzeczywisty rozmiar bazy danych będzie zależał od konkretnych danych oraz rozwoju sklepu.
 
-## Plan Wdrożenia Projektu ShopMaster
+# Plan Wdrożenia Projektu ShopMaster
 
 | Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
 | --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
@@ -144,7 +144,7 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 
 
 
-3. Szkolenia
+# Szkolenia
 
 ## Cele Szkoleń:
 1. **Zapoznanie z Interfejsem:**
@@ -209,3 +209,25 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 
 9. **Cykliczne Aktualizacje Szkoleń:**
    - Dostosowywanie szkoleń do nowych funkcji wprowadzanych w systemie.
+
+
+
+# Koncepcja wsparcia technicznego w tym usuwania błędów i zapewnienia ciągłości działania 
+
+
+### 1. **Wsparcie Techniczne:**
+   - **Usługi Wsparcia Technicznego:** Utworzenie dedykowanego zespołu wsparcia technicznego, który będzie dostępny dla użytkowników w celu zgłaszania błędów, pytań technicznych oraz prośb o pomoc.
+   - **Kanały Komunikacji:** Umożliwienie zgłoszeń przez e-mail, system zgłoszeń online oraz ewentualnie czat online.
+
+### 2. **Monitorowanie Systemu:**
+   - **Narzędzia Monitorujące:** Wdrożenie narzędzi monitorujących, aby na bieżąco śledzić działanie systemu, wykrywać ewentualne anomalie oraz błędy.
+   - **Powiadomienia Awaryjne:** Konfiguracja powiadomień awaryjnych, aby zespół techniczny był natychmiast informowany o problemach.
+
+### 3. **Baza Wiedzy i Samopomoc:**
+   - **Dokumentacja Online:** Udostępnienie obszernej bazy wiedzy zawierającej poradniki, instrukcje oraz rozwiązania najczęstszych problemów.
+   - **Szkolenia Samopomocy:** Organizacja cyklicznych szkoleń online, na których użytkownicy mogą zdobyć umiejętności samodzielnego rozwiązywania problemów.
+
+### 4. **Proces Zarządzania Błędami:**
+   - **System Zgłaszania Błędów:** Stworzenie dedykowanego systemu zgłaszania błędów, w którym użytkownicy mogą precyzyjnie opisywać napotkane problemy.
+   - **Priorytetyzacja i Monitorowanie:** Opracowanie procesu priorytetyzacji zgłoszeń, aby błędy krytyczne były natychmiastowo rozpatrywane, a użytkownicy otrzymywali informacje o postępie prac.
+   - **Cykliczne Aktualizacje:** Regularne publikowanie aktualizacji systemu, które zawierają poprawki błędów zgłoszonych przez użytkowników.
