@@ -26,8 +26,9 @@
     - Produkt: 4 bajty
     - Ilość: 4 bajty
     - Cena (po promocjach): 4 bajty
+    - Opis: 10'000 bajtów
     
-    Każdy zamówiony produkt zajmuje w sumie 28 bajtów.
+    Każdy zamówiony produkt zajmuje w sumie 10'028 bajtów.
 
 4. **Tablica promocji:**
     - ID: 4 bajty
@@ -93,11 +94,11 @@
    - 10,000 produktów przez pierwsze 3 miesiące
    - Liczba produktów pozostaje względnie stała
 
-   - Sumaryczna wielkość tablicy produktów: 10,000 produktów * 12 bajtów/produkt = 120,000 bajtów = 0.12 MB
+   - Sumaryczna wielkość tablicy produktów: 10,000 produktów * 10'028 bajtów/produkt = 100'280'000 bajtów = 100.3 MB
 
-38.4 MB (użytkownicy) + 5.28 MB (zamówienia) + 10.64 MB (zamówione produkty) + 4.4 MB (promocje) + 0.12 MB (produkty) = 58.84 MB
+38.4 MB (użytkownicy) + 5.28 MB (zamówienia) + 10.64 MB (zamówione produkty) + 4.4 MB (promocje) + 100.3 MB (produkty) = 159.02 MB
 
-Wynika z tego, że sumaryczna wielkość wszystkich tablic po pierwszym roku wynosi 58.84 MB.
+Wynika z tego, że sumaryczna wielkość wszystkich tablic po pierwszym roku wynosi 159.02 MB.
 
 Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji i danych występujących w sklepie internetowym ShopMaster. Wartości podane są w przybliżeniu, a rzeczywisty rozmiar bazy danych będzie zależał od konkretnych danych oraz rozwoju sklepu.
 
