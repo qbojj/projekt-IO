@@ -104,42 +104,42 @@ Podsumowując, rozmiary tabel są szacunkowe i zależą od faktycznych operacji 
 
 ## Plan Wdrożenia Projektu ShopMaster
 
-| Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
+| Nr  | Nazwa zadania                                      | Czas [tyg]  | Początek    | Koniec      |
 | --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
-| 1   | Analiza wymagań dotyczących systemu                | 2 tygodnie  | 01-02-2024  | 14-02-2024  |
-| 2   | Projektowanie architektury systemu                 | 3 tygodnie  | 14-02-2024  | 06-03-2024  |
-| 3   | Prezentacja projektu architektury klientowi        | 1 tydzień   | 06-03-2024  | 13-03-2024  |
-| 4   | Wprowadzenie korekt do projektu architektury       | 1 tydzień   | 13-03-2024  | 20-03-2024  |
-| 5   | Implementacja podstawowych funkcjonalności         | 6 tygodni   | 20-03-2024  | 01-05-2024  |
-| 6   | Testowanie i poprawki funkcjonalności bazowych     | 4 tygodnie  | 01-05-2024  | 29-05-2024  |
-| 7   | Opracowanie mechanizmów płatności online          | 6 tygodni  | 29-05-2024  | 10-07-2024  |
-| 8   | Testowanie płatności online i wprowadzenie poprawek| 3 tygodnie  | 10-07-2024  | 31-07-2024  |
-| 9   | Implementacja systemu zarządzania zamówieniami     | 7 tygodni   | 31-07-2024  | 18-09-2024  |
-| 10  | Testowanie systemu zarządzania zamówieniami        | 5 tygodni  | 18-09-2024  | 23-10-2024  |
-| 11  | Integracja systemu z bazą danych sklepu            | 4 tygodnie  | 23-10-2024  | 20-11-2024  |
-| 12  | Testy integracyjne i ostateczne poprawki           | 3 tygodnie  | 20-11-2024  | 11-12-2024  |
-| 13  | Uruchomienie systemu na serwerze produkcyjnym     | 2 tygodnie   | 11-12-2024  | 25-12-2024  |
+| 1   | Analiza wymagań dotyczących systemu                | 2           | 01-02-2024  | 14-02-2024  |
+| 2   | Projektowanie architektury systemu                 | 3           | 14-02-2024  | 06-03-2024  |
+| 3   | Prezentacja projektu architektury klientowi        | 1           | 06-03-2024  | 13-03-2024  |
+| 4   | Wprowadzenie korekt do projektu architektury       | 1           | 13-03-2024  | 20-03-2024  |
+| 5   | Implementacja podstawowych funkcjonalności         | 6           | 20-03-2024  | 01-05-2024  |
+| 6   | Testowanie i poprawki funkcjonalności bazowych     | 4           | 01-05-2024  | 29-05-2024  |
+| 7   | Opracowanie mechanizmów płatności online           | 6           | 29-05-2024  | 10-07-2024  |
+| 8   | Testowanie płatności online i wprowadzenie poprawek| 3           | 10-07-2024  | 31-07-2024  |
+| 9   | Implementacja systemu zarządzania zamówieniami     | 7           | 31-07-2024  | 18-09-2024  |
+| 10  | Testowanie systemu zarządzania zamówieniami        | 5           | 18-09-2024  | 23-10-2024  |
+| 11  | Integracja systemu z bazą danych sklepu            | 4           | 23-10-2024  | 20-11-2024  |
+| 12  | Testy integracyjne i ostateczne poprawki           | 3           | 20-11-2024  | 11-12-2024  |
+| 13  | Uruchomienie systemu na serwerze produkcyjnym      | 2           | 11-12-2024  | 25-12-2024  |
 
 ### Plan Migracji Danych
 
-| Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
+| Nr  | Nazwa zadania                                      | Czas [tyg]  | Początek    | Koniec      |
 | --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
-| 1   | Eksport danych z istniejącego systemu (jeśli istnieje)| 2 tygodnie | 01-12-2024 | 14-12-2024 |
-| 2   | Przygotowanie danych do migracji                  | 1 tydzień   | 14-12-2024 | 21-12-2024 |
-| 3   | Import danych do nowego systemu                   | 2 tygodnie  | 21-12-2024 | 03-01-2025 |
-| 4   | Weryfikacja i poprawki w danych migracyjnych       | 1 tydzień   | 03-01-2025 | 10-01-2025 |
+| 1   | Eksport danych z istniejącego systemu (jeśli istnieje)| 2        | 01-12-2024 | 14-12-2024 |
+| 2   | Przygotowanie danych do migracji                   | 1           | 14-12-2024 | 21-12-2024 |
+| 3   | Import danych do nowego systemu                    | 2           | 21-12-2024 | 03-01-2025 |
+| 4   | Weryfikacja i poprawki w danych migracyjnych       | 1           | 03-01-2025 | 10-01-2025 |
 
 ### Plan Wdrożenia Projektu (Infrastruktura)
 
-| Nr  | Nazwa zadania                                      | Czas        | Początek    | Koniec      |
-| --- | -------------------------------------------------- | ----------- | ----------- | ----------- |
-| 1   | Rozpoczęcie pisania dokumentacji infrastruktury    | 1 tydzień   | 01-01-2025 | 07-01-2025 |
-| 2   | Przygotowanie środowiska testowego                 | 2 tygodnie  | 07-01-2025 | 21-01-2025 |
-| 3   | Testowanie systemu oraz infrastruktury technicznej  | 3 tygodnie  | 21-01-2025 | 11-02-2025 |
-| 4   | Poprawa zgłoszonych błędów w infrastrukturze       | 1 tydzień   | 11-02-2025 | 18-02-2025 |
-| 5   | Zaimplementowanie aplikacji na serwerze produkcyjnym| 2 tygodnie  | 18-02-2025 | 04-03-2025 |
-| 6   | Migracja danych na serwer produkcyjny              | 1 tydzień   | 04-03-2025 | 11-03-2025 |
-| 7   | Otwarcie produkcyjne systemu                      | 1 tydzień   | 11-03-2025 | 18-03-2025 |
+| Nr  | Nazwa zadania                                      | Czas [tyg]  | Początek   | Koniec     |
+| --- | -------------------------------------------------- | ----------- | ---------- | ---------- |
+| 1   | Rozpoczęcie pisania dokumentacji infrastruktury    | 1           | 01-01-2025 | 07-01-2025 |
+| 2   | Przygotowanie środowiska testowego                 | 2           | 07-01-2025 | 21-01-2025 |
+| 3   | Testowanie systemu oraz infrastruktury technicznej | 3           | 21-01-2025 | 11-02-2025 |
+| 4   | Poprawa zgłoszonych błędów w infrastrukturze       | 1           | 11-02-2025 | 18-02-2025 |
+| 5   | Zaimplementowanie aplikacji na serwerze produkcyjnym| 2          | 18-02-2025 | 04-03-2025 |
+| 6   | Migracja danych na serwer produkcyjny              | 1           | 04-03-2025 | 11-03-2025 |
+| 7   | Otwarcie produkcyjne systemu                       | 1           | 11-03-2025 | 18-03-2025 |
 
 ## Szkolenia
 
